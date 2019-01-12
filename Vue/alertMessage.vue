@@ -1,9 +1,3 @@
-Vue.JS sample one
-
-This is a simple component I wrote to display any message that needs to be shown to the user
-Originally it was written with Vanilla.js but was later re-written in Typescript to follow with the tech stack that had been decided on
-That rewrite is the code below
-
 <template>
   <div v-if="showMessage" id="wrapper" class="wrapper" @mousedown="checkType">
     <transition name="notification">
